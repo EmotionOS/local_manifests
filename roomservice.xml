@@ -4,6 +4,9 @@
   <project name="EmotionOS/android_device_samsung_trltespr" path="device/samsung/trltespr" remote="emotion" revision="nougat" />
   <project name="EmotionOS/android_device_samsung_trltetmo" path="device/samsung/trltetmo" remote="emotion" revision="nougat" />
   <project name="EmotionOS/android_device_lge_ls997" path="device/lge/ls997" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/android_device_lge_us996" path="device/lge/ls997" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/android_device_lge_vs995" path="device/lge/ls997" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/android_device_lge_h918" path="device/lge/ls997" remote="emotion" revision="nougat" />
   <remove-project name="LineageOS/android_external_connectivity" />
   <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="cm" revision="cm-14.1" />
   <project branch="nougat" name="EmotionOS/proprietary_vendor_samsung" path="vendor/samsung" remote="emotion" />
