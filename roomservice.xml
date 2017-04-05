@@ -33,5 +33,4 @@
   <project name="EmotionOS/device_leeco_s2" path="device/leeco/s2" remote="emotion" revision="nougat" />
   <project name="EmotionOS/proprietary_vendor_leeco" path="vendor/leeco" remote="emotion" revision="cm-14.1" />
   <project name="LineageOS/android_kernel_leeco_msm8976" path="kernel/leeco/msm8976" remote="cm" revision="cm-14.1" />
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-14.1" />
   </manifest>
