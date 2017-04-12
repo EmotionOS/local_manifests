@@ -33,4 +33,8 @@
   <project name="EmotionOS/device_leeco_s2" path="device/leeco/s2" remote="emotion" revision="nougat" />
   <project name="EmotionOS/proprietary_vendor_leeco" path="vendor/leeco" remote="emotion" revision="cm-14.1" />
   <project name="LineageOS/android_kernel_leeco_msm8976" path="kernel/leeco/msm8976" remote="cm" revision="cm-14.1" />
+  <project name="LineageOS/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="cm" revision="cm-14.1" />
+  <project name="EmotionOS/android_kernel_samsung_klte" path="kernel/samsung/klte" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/android_device_samsung_klte" path="device/samsung/klte" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/android_device_samsung_klte-common" path="device/samsung/klte-common" remote="emotion" revision="nougat" />
   </manifest>
