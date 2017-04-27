@@ -1,40 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Device Tree -->
   <project name="EmotionOS/android_device_samsung_trltexx" path="device/samsung/trltexx" remote="emotion" revision="nougat" />
   <project name="EmotionOS/android_device_samsung_trltespr" path="device/samsung/trltespr" remote="emotion" revision="nougat" />
   <project name="EmotionOS/android_device_samsung_trltetmo" path="device/samsung/trltetmo" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="emotion" revision="nougat" />
   <project name="EmotionOS/android_device_lge_ls997" path="device/lge/ls997" remote="emotion" revision="nougat" />
   <project name="EmotionOS/android_device_lge_us996" path="device/lge/us996" remote="emotion" revision="nougat" />
   <project name="EmotionOS/android_device_lge_vs995" path="device/lge/vs995" remote="emotion" revision="nougat" />
   <project name="EmotionOS/android_device_lge_h918" path="device/lge/h918" remote="emotion" revision="nougat" />
-  <remove-project name="LineageOS/android_external_connectivity" />
-  <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="cm" revision="cm-14.1" />
-  <project branch="nougat" name="EmotionOS/proprietary_vendor_samsung" path="vendor/samsung" remote="emotion" />
-  <project branch="nougat" name="EmotionOS/android_device_lge_v20-common" path="device/lge/v20-common" remote="emotion" />
-  <project branch="nougat" name="EmotionOS/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="emotion" />
-  <project branch="nougat" name="EmotionOS/proprietary_vendor_lge" path="vendor/lge" remote="emotion" />
-  <project branch="cm-14.1" name="EmotionOS/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="cm" />
-  <project branch="cm-14.1" name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="cm" />
-  <project branch="cm-14.1" name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="cm" />
-  <project branch="cm-14.1" name="LineageOS/android_external_stlport" path="external/stlport" remote="cm" />
-  <project branch="nougat" name="EmotionOS/android_device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="emotion" />
+  <project name="EmotionOS/android_device_lge_v20-common" path="device/lge/v20-common" remote="emotion" revision="nougat"  />
+  <project name="EmotionOS/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/android_device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/android_device_moto_shamu" path="device/moto/shamu" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/android_device_xiaomi_natrium" path="device/xiaomi/natrium" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/device_leeco_s2" path="device/leeco/s2" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/android_device_samsung_klte" path="device/samsung/klte" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/android_device_samsung_klte-common" path="device/samsung/klte-common" remote="emotion" revision="nougat" />
+  <project name="LineageOS/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="cm" revision="cm-14.1" />
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="cm" revision="cm-14.1" />
   <project name="EmotionOS/android_device_oppo_common" path="device/oppo/common" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/android_device_qcom_common" path="device/qcom/common" remote="emotion" revision="nougat" />
+  <!-- Kernel -->
+  <project name="EmotionOS/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="cm" revision="cm-14.1" />
   <project name="EmotionOS/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/android_kernel_moto_shamu" path="kernel/moto/shamu" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/android_kernel_samsung_trlte" path="kernel/samsung/trlte" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="emotion" revision="nougat" />
+  <project name="LineageOS/android_kernel_leeco_msm8976" path="kernel/leeco/msm8976" remote="cm" revision="cm-14.1" />
+  <project name="EmotionOS/android_kernel_samsung_klte" path="kernel/samsung/klte" remote="emotion" revision="nougat" />
+  <!-- Vendor -->
+  <project name="EmotionOS/proprietary_vendor_samsung" path="vendor/samsung" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/proprietary_vendor_lge" path="vendor/lge" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/proprietary_vendor_oneplus" path="vendor/oneplus" remote="emotion" revision="nougat" />
+  <project name="EmotionOS/proprietary_vendor_motorola" path="vendor/motorola" remote="emotion" revision="nougat" />
+  <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1" />
+  <project name="EmotionOS/proprietary_vendor_leeco" path="vendor/leeco" remote="emotion" revision="cm-14.1" />
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="cm" revision="cm-14.1" />
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="cm" revision="cm-14.1" />
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="cm" revision="cm-14.1" />
-  <project name="EmotionOS/proprietary_vendor_oneplus" path="vendor/oneplus" remote="emotion" revision="nougat" />
-  <project name="EmotionOS/android_device_qcom_common" path="device/qcom/common" remote="emotion" revision="nougat" />
-  <project name="EmotionOS/android_device_moto_shamu" path="device/moto/shamu" remote="emotion" revision="nougat" />
-  <project name="EmotionOS/android_kernel_moto_shamu" path="kernel/moto/shamu" remote="emotion" revision="nougat" />
-  <project name="EmotionOS/proprietary_vendor_motorola" path="vendor/motorola" remote="emotion" revision="nougat" />
-  <project name="EmotionOS/android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="emotion" revision="nougat" />
-  <project name="EmotionOS/android_kernel_samsung_trlte" path="kernel/samsung/trlte" remote="emotion" revision="nougat" />
-  <project name="EmotionOS/device_leeco_s2" path="device/leeco/s2" remote="emotion" revision="nougat" />
-  <project name="EmotionOS/proprietary_vendor_leeco" path="vendor/leeco" remote="emotion" revision="cm-14.1" />
-  <project name="LineageOS/android_kernel_leeco_msm8976" path="kernel/leeco/msm8976" remote="cm" revision="cm-14.1" />
-  <project name="LineageOS/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="cm" revision="cm-14.1" />
-  <project name="EmotionOS/android_kernel_samsung_klte" path="kernel/samsung/klte" remote="emotion" revision="nougat" />
-  <project name="EmotionOS/android_device_samsung_klte" path="device/samsung/klte" remote="emotion" revision="nougat" />
-  <project name="EmotionOS/android_device_samsung_klte-common" path="device/samsung/klte-common" remote="emotion" revision="nougat" />
-  </manifest>
+  <!-- Misc -->
+  <remove-project name="LineageOS/android_external_connectivity" />
+  <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="cm" revision="cm-14.1" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="cm" revision="cm-14.1" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="cm" revision="cm-14.1" />
+</manifest>
